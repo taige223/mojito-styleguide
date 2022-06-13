@@ -10,6 +10,7 @@ module.exports = {
   },
   plugins: [require("daisyui")],
   daisyui: {
-    themes: [],
+    // TODO: create spa-hr
+    themes: ["light"],
   },
 };
