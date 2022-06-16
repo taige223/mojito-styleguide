@@ -10,7 +10,19 @@ module.exports = {
   },
   plugins: [require("daisyui")],
   daisyui: {
-    // TODO: create spa-hr
-    themes: ["light"],
+    themes: [
+      {
+        // TODO: manage this in npm package
+        light: {
+          ...require("daisyui/src/colors/themes")["[data-theme=light]"],
+          primary: "#fc6d26",
+          info: "#777FFF",
+          success: "#73d13d",
+          warning: "#ffc53d",
+          error: "#FF1111",
+          "base-100": "#F7F7FA",
+        },
+      },
+    ],
   },
 };
