@@ -2,10 +2,27 @@
 @tailwind components;
 @tailwind utilities;
 
-.header2 {
-    @apply label text-2xl;
-}
 
-.main-container {
+::-webkit-progress-value {
+    transition: width 200ms;
+  }
+
+  .header2 {
+    @apply label text-2xl;
+  }
+
+  .main-container {
     @apply container max-w-screen-md;
-}
+  }
+
+  .section {
+    @apply border shadow;
+  }
+
+  .section-title {
+    @apply w-full bg-gray-200 px-4 py-2;
+  }
+
+  .section-body {
+    @apply p-4;
+  }
