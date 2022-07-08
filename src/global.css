@@ -2,27 +2,87 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+  --slate-50: #f8fafc;
+  --slate-100: #f1f5f9;
+  --slate-200: #e2e8f0;
+  --slate-300: #cbd5e1;
+  --slate-400: #94a3b8;
+  --slate-500: #64748b;
+  --slate-600: #475569;
+  --slate-700: #334155;
+  --slate-800: #1e293b;
+  --slate-900: #0f172a;
+
+  --gray-50: #f9fafb;
+  --gray-100: #f3f4f6;
+  --gray-200: #e5e7eb;
+  --gray-300: #d1d5db;
+  --gray-400: #9ca3af;
+  --gray-500: #6b7280;
+  --gray-600: #4b5563;
+  --gray-700: #374151;
+  --gray-800: #1f2937;
+  --gray-900: #111827;
+
+  --zinc-50: #fafafa;
+  --zinc-100: #f4f4f5;
+  --zinc-200: #e4e4e7;
+  --zinc-300: #d4d4d8;
+  --zinc-400: #a1a1aa;
+  --zinc-500: #71717a;
+  --zinc-600: #52525b;
+  --zinc-700: #3f3f46;
+  --zinc-800: #27272a;
+  --zinc-900: #18181b;
+
+  --neutral-50: #fafafa;
+  --neutral-100: #f5f5f5;
+  --neutral-200: #e5e5e5;
+  --neutral-300: #d4d4d4;
+  --neutral-400: #a3a3a3;
+  --neutral-500: #737373;
+  --neutral-600: #525252;
+  --neutral-700: #404040;
+  --neutral-800: #262626;
+  --neutral-900: #171717;
+
+
+  --primary-color: #fc6d26;
+  --primary-content-color: #fff;
+  --primary-focus-color: #fff7f0;
+  --primary-hover-color: #ff904f;
+  --neutral-color: var(--neutral-500);
+  --success-color: #73d13d;
+  --success-content-color: var(--primary-content-color);
+  --info-color: #36cfc9;
+  --info-content-color: var(--primary-content-color);
+  --warning-color: #ffc53d;
+  --warning-content-color: var(--primary-content-color);
+  --error-color: #ff1111;
+  --error-content-color: var(--primary-content-color);
+}
 
 ::-webkit-progress-value {
-    transition: width 200ms;
-  }
+  transition: width 200ms;
+}
 
-  .header2 {
-    @apply label text-2xl;
-  }
+.header2 {
+  @apply label text-2xl;
+}
 
-  .main-container {
-    @apply container max-w-screen-md;
-  }
+.main-container {
+  @apply container max-w-screen-md;
+}
 
-  .section {
-    @apply border shadow;
-  }
+.section {
+  @apply border shadow;
+}
 
-  .section-title {
-    @apply w-full bg-gray-200 px-4 py-2;
-  }
+.section-title {
+  @apply w-full bg-gray-200 px-4 py-2;
+}
 
-  .section-body {
-    @apply p-4;
-  }
+.section-body {
+  @apply p-4;
+}
