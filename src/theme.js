@@ -3,7 +3,7 @@ module.exports = {
     light: {
       primary: "#FC6D26",
       "primary-content": "#fff",
-      "primary-focus": "#FFF7F0",
+      "primary-focus": "#FF904F",
       neutral: "#737373",
       success: "#73D13D",
       "success-content": "#fff",
