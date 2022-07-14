@@ -67,7 +67,19 @@
 }
 
 .header2 {
-  @apply label text-2xl;
+  @apply label font-semibold text-2xl;
+}
+
+.header3 {
+  @apply label font-semibold text-xl;
+}
+
+.header4 {
+  @apply label font-semibold text-lg;
+}
+
+.header5 {
+  @apply label font-semibold;
 }
 
 .main-container {
