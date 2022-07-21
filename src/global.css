@@ -51,6 +51,7 @@
   --primary-content-color: #fff;
   --primary-focus-color: #fff7f0;
   --primary-hover-color: #ff904f;
+  --secondary-color: #3b82f6;
   --neutral-color: var(--neutral-500);
   --success-color: #73d13d;
   --success-content-color: var(--primary-content-color);
@@ -67,15 +68,15 @@
 }
 
 .header2 {
-  @apply label font-semibold text-2xl;
+  @apply label text-2xl font-semibold;
 }
 
 .header3 {
-  @apply label font-semibold text-xl;
+  @apply label text-xl font-semibold;
 }
 
 .header4 {
-  @apply label font-semibold text-lg;
+  @apply label text-lg font-semibold;
 }
 
 .header5 {
@@ -96,4 +97,25 @@
 
 .section-body {
   @apply p-4;
+}
+
+.step-doing::before {
+  @apply !h-0 border-t-2 border-dashed border-t-primary;
+}
+.step-doing::after {
+  @apply !border-2 border-primary !text-primary;
+}
+
+.step-done::before {
+  @apply !h-0 border-t-2 border-solid border-t-primary;
+}
+.step-done::after {
+  @apply !border-2 border-primary !bg-primary !text-white;
+}
+
+.step-todo::before {
+  @apply !h-0 border-t-2 border-solid border-t-gray-300;
+}
+.step-todo::after {
+  @apply !border-2 border-gray-300;
 }
