@@ -84,7 +84,11 @@
 }
 
 .main-container {
-  @apply container max-w-screen-md;
+  @apply container mx-auto w-full max-w-screen-md;
+}
+
+.large-container {
+  @apply container mx-auto w-full max-w-screen-xl;
 }
 
 .section {
