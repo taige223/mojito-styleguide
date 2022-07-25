@@ -1,6 +1,6 @@
 {
   "extends": "ts-config-single-spa",
-  "files": ["src/thaddeusjiang-styleguide.ts"],
+  "files": ["src/omakasestack-styleguide.ts"],
   "compilerOptions": {
     "declarationDir": "dist"
   },

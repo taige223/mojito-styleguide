@@ -1,5 +1,5 @@
 {
-  "name": "@thaddeusjiang/styleguide",
+  "name": "@omakasestack/styleguide",
   "license": "MIT",
   "scripts": {
     "start": "webpack serve",
@@ -55,5 +55,5 @@
     "@types/webpack-env": "^1.16.2",
     "single-spa": "^5.9.3"
   },
-  "types": "dist/thaddeusjiang-styleguide.d.ts"
+  "types": "dist/omakasestack-styleguide.d.ts"
 }

@@ -1,9 +1,7 @@
 module.exports = {
-  // we don't purge css since we use micro-frontends
-  safelist: [
-    {
-      pattern: /./,
-    },
+  content: [
+    "./src/**/*.{html,ts,tsx,jsx}",
+    "./apps/*/src/**/*.{html,ts,tsx,jsx}",
   ],
   theme: {
     extend: {
