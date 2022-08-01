@@ -104,24 +104,25 @@
 }
 
 .step-doing::before {
-  @apply !h-0 border-t-2 border-dashed border-t-primary;
+  @apply !h-0 !w-3/4 border-t-2 border-dashed border-t-primary;
 }
 .step-doing::after {
-  @apply !border-2 border-primary !text-primary;
+  @apply !border-2 border-primary !bg-white !text-primary;
 }
 
-.step-done::before {
-  @apply !h-0 border-t-2 border-solid border-t-primary;
+.step-done:before {
+  @apply !h-0 !w-3/4 border-t-2 border-solid border-t-primary;
 }
-.step-done::after {
+.step-done:after {
   @apply !border-2 border-primary !bg-primary !text-white;
 }
 
 .step-todo::before {
-  @apply !h-0 border-t-2 border-solid border-t-gray-300;
+  @apply !h-0 !w-3/4 border-t-2 border-solid border-t-gray-300;
 }
+
 .step-todo::after {
-  @apply !border-2 border-gray-300;
+  @apply !border-2 !border-gray-300 !bg-white !text-gray-300;
 }
 
 .btn-normal {
