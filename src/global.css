@@ -128,3 +128,15 @@
 .btn-normal {
   @apply btn btn-md border-gray-300 bg-inherit text-inherit hover:border-primary hover:bg-inherit hover:text-primary;
 }
+
+.input-normal {
+  @apply h-9 rounded-md border-gray-300 px-4 text-sm leading-8;
+}
+
+.select-normal {
+  @apply h-9 min-h-[36px] rounded-md border-gray-300 text-sm leading-8;
+}
+
+.link-normal {
+  @apply link link-hover link-secondary;
+}
